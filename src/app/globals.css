@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8fafc;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+.mantine-Table-table {
+  border-collapse: collapse;
+}
+
+.mantine-Table-tr:hover td {
+  background-color: #f0f7ff !important;
+}
